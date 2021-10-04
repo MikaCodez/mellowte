@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* headings and logo */
+
+h1 h2 {
+    font-family: 'Merienda', cursive;
+}
+
+#logo {
+    float:left;
+    font-size: 260%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+#navi {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#navi, #logo {
+    line-height: 95%;
+}
+
+#navi li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
