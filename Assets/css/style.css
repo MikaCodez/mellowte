@@ -44,10 +44,34 @@ h2 {
 
 #navi, #logo {
     line-height: 95%;
+    
 }
 
 #navi li {
-    float: right;
+    display: inline;
     list-style-type: none;
     margin-right: 30px;
+    display: inline-block;
+    justify-content: flex-end;
+
 }
+
+/* Footer section */
+.main-footer {
+    background-color: #4EE74B;
+    color: white;
+    padding: .25em 0;
+  }
+  .main-footer-container {
+    display: cover;
+    align-items: center;
+  }
+  .main-footer-container ul {
+    flex-grow: 5;
+    text-align: end;
+    
+  }
+  .footer-nav li {
+    padding: 0 .5em;
+  }
+ 
