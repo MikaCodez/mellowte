@@ -40,21 +40,26 @@ h2 {
 #navi {
     font-size: 110%;
     letter-spacing: 4px;
+    text-align: end;
+    font-size: 1.2em;
+    font-weight: ligher;
+    box-sizing: border-box;
+    background-color: #4EE74B;
 }
 
 #navi, #logo {
     line-height: 95%;
-    
+    box-sizing: border-box;
 }
 
 #navi li {
     display: inline;
     list-style-type: none;
     margin-right: 30px;
-    display: inline-block;
-    justify-content: flex-end;
+    padding: .5em;
 
 }
+
 
 /* Footer section */
 .main-footer {
