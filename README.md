@@ -43,6 +43,8 @@ This user will see the value of subscribing to the Mellow Tè Newsletter, also d
 This section of the sites starts to break down the information of each herbal tea available.
 Listing the benefits of different types of tea and its properties. This section offers the information that would be most useful to the users that visit the site.
 Encouraging them to start including Herbal tea into their lifestyle.
+
+
 ![herbalteapage](https://user-images.githubusercontent.com/65243328/136410894-5ffe6109-e194-4a1e-94a8-6e82c6451abc.JPG)
 
 
