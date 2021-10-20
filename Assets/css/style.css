@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Merienda:wght@700&display=swap');
 
-@media screen and (max-width: 800px);
+/* Media queries */
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
 
 * {
     margin: 0;
@@ -112,14 +134,15 @@ margin: 15px 0px 0px 20px;
 }
 
 /* About page News seciton */
-.aboutimg {
-    
-  min-height: 50vh;
-  max-height: 60vh;
-  object-fit: contain;
-  max-width: 30%;
+.imgcontainer {
+  justify-content:space-between;
+  flex-direction: row;   
+  min-height: 40vh;
+  max-height: 50vh;
+  object-fit: fill;
+  max-width: 5%;
   height: auto;
-  Display: flex;
+  display: flex;
 position: relative;
 padding-left: 2%;
 
@@ -130,13 +153,11 @@ padding-left: 2%;
   min-height: 50vh;
   max-height: 60vh;
   object-fit: fill;
-  max-width: 30%;
+  max-width: fit-content;
   height: auto;
-  Display: flex;
-padding-left: 5%;
+  display: flex;
 position: relative;
-left: 270px;
-bottom: 305px;
+flex-basis: auto;
 
   
 }
@@ -144,22 +165,28 @@ bottom: 305px;
     
   min-height: 50vh;
   max-height: 60vh;
-  object-fit: contain;
-  max-width: 30%;
+  object-fit:contain;
+  max-width:fit-content;
   height: auto;
-  Display: flex;
-padding-left: 5%;
+  display: flex;
 position: relative;
-left: 630px;
-bottom: 670px;
-
+flex-basis: auto;
   
 }
 
  
-  
+ /* Contact page */
+ #contactte {
+ justify-content:space-between;
+ flex-direction: row;
+ padding-left:  10%;
+ }
+ #survey-form {
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+ }
 
-
+ 
 /* Footer section */
 .main-footer {
     background-color: #4EE74B;
