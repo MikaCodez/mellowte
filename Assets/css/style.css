@@ -106,6 +106,7 @@ margin: 15px 0px 0px 20px;
   text-align: center;
   position:relative ;
   font-family: 'EB Garamond', serif;
+  padding-left: 2%;
 }
 
 .text-align2 {
@@ -113,6 +114,14 @@ margin: 15px 0px 0px 20px;
   position:relative ;
   box-sizing: border-box;
   font-family: 'EB Garamond', serif;
+  padding-left: 2%;
+}
+
+.main-section {
+  text-align:justify;
+  position:relative ;
+  font-family: 'EB Garamond', serif;
+  padding-left: 2%;
 }
 
 /* navigation links */
