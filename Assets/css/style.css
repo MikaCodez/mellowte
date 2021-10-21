@@ -55,6 +55,7 @@ h2 {
     padding-top: 50px;
     width: 33%;
     float: top;
+    padding-left: 0.5%;
 }
 
 h3 {
@@ -62,6 +63,10 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #E8FCF1;
+}
+
+h4 {
+  padding-left: 2%;
 }
 
 #introte {
@@ -174,6 +179,16 @@ flex-basis: auto;
   
 }
 
+/* Herbal Teas page */
+
+#herbaltes {
+  justify-content:space-between;
+  flex-direction: row;   
+  height: auto;
+  display: flex;
+position: relative;
+padding-left: 2%;
+} 
  
  /* Contact page */
  #contactte {
