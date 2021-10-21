@@ -93,8 +93,9 @@ h4 {
     margin-left: 30px;
 }
 
-#p {
-
+.p {
+font-family: 'EB Garamond', serif;
+font-weight: bold;
 text-align: center;
 line-height: 1.6;
 color: #000000;
@@ -104,12 +105,14 @@ margin: 15px 0px 0px 20px;
 .text-align {
   text-align: center;
   position:relative ;
+  font-family: 'EB Garamond', serif;
 }
 
 .text-align2 {
   text-align:justify ;
   position:relative ;
   box-sizing: border-box;
+  font-family: 'EB Garamond', serif;
 }
 
 /* navigation links */
