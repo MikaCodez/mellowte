@@ -5,6 +5,32 @@ Mellow Tè is an informational guide to the best tea's available for people to d
 The site will have a section dedicated to the properties of various herbal tea's, their history, properties and benefits.
 I hope to show people the great benefits of Herbal teas and how it can help improve their daily life.
 
+
+# UX
+## Users
+The target users for this site are people that wish to learn more about the different types of Herbal Teas available and the benefits
+that they can bring to them. This will breakdown health areas to tackle such as sleep deprivation, digestion, diabetes etc.
+This is a user friendly website that has access to an index of a variety of teas. All the links are displayed clearly and navigate to the user where to go
+if they want more straight to the point information.
+
+## Colors
+
+![Mellow te](https://user-images.githubusercontent.com/65243328/138293991-f0297bae-1a6f-4acb-9bfc-382a0c2cb2f9.png)
+
+#AEB3AD - Navy Blue - as the main background colour and to depict the night sky
+
+#99B7AB - Light green - used for the navigation and footer of the page
+
+#84BBA9 - Light green - used for the background of most of the pages of the site.
+
+#080D0B - Black - used for the main paragraph texts on the herbal tea and about pages
+
+## Typography
+![logo](https://user-images.githubusercontent.com/65243328/138295328-c7ca4fb8-79e0-418d-aab2-765b131ec65c.jpg)
+![herbaltea tpog](https://user-images.githubusercontent.com/65243328/138295340-5d65fafc-aa68-4a17-9c46-242ea339d3be.jpg)
+![p typog](https://user-images.githubusercontent.com/65243328/138295784-adbd869a-27ad-4f71-bd55-8d15fe29214e.JPG)
+
+
 # Features
 
 •Existing Features
@@ -55,3 +81,6 @@ here they will enter in their name and email in order to have this service. This
 
 ![contact page](https://user-images.githubusercontent.com/65243328/136411268-a2458323-800e-42bd-8493-ee85e0e390cf.JPG)
 
+# Technologies
+•HTML
+•CSS
