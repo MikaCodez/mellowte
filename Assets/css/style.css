@@ -67,6 +67,9 @@ h3 {
 
 h4 {
   padding-left: 2%;
+  font-family: 'EB Garamond', serif;
+  text-transform: bold;
+  font-size: larger;
 }
 
 #introte {
@@ -201,7 +204,15 @@ flex-basis: auto;
 position: relative;
 padding-left: 2%;
 } 
- 
+
+#youtubevid {
+  padding-left: 5%;
+ }
+
+ #herbtespage {
+  padding-left: 2%;
+ }
+
  /* Contact page */
  #contactte {
  justify-content:space-between;
@@ -209,9 +220,14 @@ padding-left: 2%;
  padding-left:  10%;
  }
  #survey-form {
-  padding: 2.5rem 0.625rem;
-  border-radius: 0.25rem;
+  padding: 0.5rem 0.3rem;
+  border-radius: 0.10rem;
  }
+
+#newslet {
+  padding: 0.5rem 0.55rem;
+
+}
 
  
 /* Footer section */
