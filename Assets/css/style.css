@@ -179,6 +179,8 @@ padding-left: 2%;
 
   
 }
+
+
 .aboutimg2 {
     
   min-height: 50vh;
@@ -264,6 +266,13 @@ padding-left: 2%;
   .footer-nav li {
     padding: 0 .5em;
     
+  }
+
+  #rights {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    color: #3CB371;
+    font-size: small;
   }
 
   
