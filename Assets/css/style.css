@@ -180,11 +180,21 @@ padding-left: 2%;
   
 }
 
+.aboutimg {
+  min-height: 50vh;
+  max-height: 60vh;
+  object-fit: fill;
+  max-width: fit-content;
+  height: auto;
+  display: flex;
+position: relative;
+flex-basis: auto;
+}
 
 .aboutimg2 {
     
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 35vh;
+  max-height: 40vh;
   object-fit: fill;
   max-width: fit-content;
   height: auto;
@@ -239,6 +249,7 @@ padding-left: 2%;
 
 #newslet {
   padding: 0.5rem 0.55rem;
+  color: #3CB371;
 
 }
 
@@ -278,7 +289,7 @@ padding-left: 2%;
   .social-media {
     display: inline-block;
     justify-content: flex-end;
-    
+
 
   }
 
