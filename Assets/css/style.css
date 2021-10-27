@@ -176,9 +176,9 @@ margin: 15px 0px 0px 20px;
   display: flex;
 position: relative;
 padding-left: 2%;
-
-  
+ 
 }
+
 
 .aboutimg {
   min-height: 50vh;
@@ -189,19 +189,22 @@ padding-left: 2%;
   display: flex;
 position: relative;
 flex-basis: auto;
+text-align: justify;
+vertical-align: text-bottom;
 }
+
 
 .aboutimg2 {
     
   min-height: 35vh;
-  max-height: 40vh;
+  max-height: 55vh;
   object-fit: fill;
   max-width: fit-content;
   height: auto;
   display: flex;
 position: relative;
 flex-basis: auto;
-
+vertical-align: text-bottom;
   
 }
 .aboutimg3 {
@@ -215,6 +218,24 @@ flex-basis: auto;
 position: relative;
 flex-basis: auto;
   
+}
+
+h5 {
+  font-family: 'EB Garamond', serif;
+  color: #3CB371;
+  padding-bottom: 50px;
+  width: 33%;
+  flex-basis:content;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#floattxt {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: solid #3CB371;
+  padding: 2px;
 }
 
 /* Herbal Teas page */
