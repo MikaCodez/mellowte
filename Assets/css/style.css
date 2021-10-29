@@ -69,12 +69,13 @@ h4 {
   padding-left: 2%;
   font-family: 'EB Garamond', serif;
   text-transform: bold;
-  font-size: larger;
+  font-size: 180%;
 }
 
 #introte {
    max-width: 150vh;
   margin: 0 25px 0 25px;
+  padding-top: 20%;
   padding: 10px 25px 25px 25px;
   height: 100vh;
 background-position: center;
@@ -100,13 +101,14 @@ background-size: cover;
 
   #landingmini {
     font-size: 200%;
+    padding-left: 2%;
   }
 
 #logo {
     float:left;
     font-size: 260%;
     margin-left: 30px;
-    padding-top: 1.5%;
+    padding-top: 2%;
 }
 
 .p {
@@ -138,6 +140,9 @@ margin: 15px 0px 0px 20px;
   box-sizing: border-box;
   font-family: 'EB Garamond', serif;
   padding-left: 2%;
+  width: 80%;
+  word-wrap: break-word;
+  font-size: 140%;
 }
 
 .main-section {
@@ -159,7 +164,7 @@ margin: 15px 0px 0px 20px;
     font-size: 1.2em;
     font-weight: ligher;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 50px;
     background-color: #4EE74B;
 }
 
@@ -263,6 +268,15 @@ padding-left: 45%;
 
 /* Herbal Teas page */
 
+#herbtehead {
+  text-align: end;
+  position: center;
+font-size: 250%;
+padding-left: 45%;
+}
+
+
+
 #herbaltes {
   justify-content:space-between;
   flex-direction: row;   
@@ -272,12 +286,55 @@ position: relative;
 padding-left: 2%;
 } 
 
+#Echinaceate {
+  height: 50%;
+  display: flex;
+position: relative;
+padding-left: 2%;
+float: left;
+margin-right: 10px;
+margin-bottom: 5px;
+}
+
+#Peppermintte {
+  height: 50%;
+  display: flex;
+position: relative;
+padding-left: 2%;
+float: left;
+margin-right: 10px;
+margin-bottom: 5px;
+}
+
+#rosehipte {
+  display: flex;
+position: relative;
+padding-left: 2%;
+float: left;
+margin-right: 10px;
+margin-bottom: 5px;
+}
+
+#Turmericte {
+  display: flex;
+  position: relative;
+  padding-left: 2%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#Healthtes {
+  display: flex;
+  position: relative;
+  padding-left: 2%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
 #youtubevid {
   padding-left: 5%;
- }
-
- #herbtespage {
-  padding-left: 2%;
  }
 
  /* Contact page */
@@ -333,6 +390,7 @@ padding-left: 2%;
   .social-media {
     display: inline-block;
     justify-content: flex-end;
+    
 
 
   }
