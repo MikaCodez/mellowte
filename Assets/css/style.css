@@ -264,15 +264,16 @@ h5 {
 position: center;
 font-size: 220%;
 padding-left: 45%;
+
 }
 
 /* Herbal Teas page */
 
 #herbtehead {
-  text-align: end;
-  position: center;
+  display: block;
+  text-align: center;
 font-size: 250%;
-padding-left: 45%;
+
 }
 
 
@@ -339,19 +340,34 @@ margin-bottom: 5px;
 
  /* Contact page */
  #contactte {
- justify-content:space-between;
- flex-direction: row;
- padding-left:  10%;
+ font-size: 380%;
+ text-align: flex;
+ padding-left: 35%;
  }
+
  #survey-form {
-  padding: 0.5rem 0.3rem;
-  border-radius: 0.10rem;
+  background-color: #3CB371;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 50px;
+  font-weight: normal;
+  border-radius: 0.25rem;
+    
  }
+
+ .form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+
 
 #newslet {
   padding: 0.5rem 0.55rem;
   color: #3CB371;
-
+  padding-left: 35%;
+  font-size: 150%;
 }
 
  
