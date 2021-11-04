@@ -388,11 +388,17 @@ margin-bottom: 5px;
   }
 
   .social-media {
-    display: inline-block;
-    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 
+  }
 
+  .social-media > li {
+    text-align: center;
+    display: inline;
+    padding-right: 20%;
   }
 
   
