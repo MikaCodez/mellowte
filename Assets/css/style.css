@@ -245,7 +245,25 @@ h5 {
   font-family: 'EB Garamond', serif;
   color: #3CB371;
   padding-bottom: 50px;
-  width: 33%;
+  flex-basis:content;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#Melnews {
+  font-family: 'EB Garamond', serif;
+  color: #3CB371;
+  padding-bottom: 50px;
+  width: 73%;
+  flex-basis:content;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#newsmel {
+  font-family: 'EB Garamond', serif;
+  color: #3CB371;
+  padding-bottom: 50px;
   flex-basis:content;
   margin-right: 10px;
   margin-bottom: 5px;
