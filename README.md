@@ -5,6 +5,7 @@ Mellow Tè is an informational guide to the best tea's available for people to d
 The site will have a section dedicated to the properties of various herbal tea's, their history, properties and benefits.
 I hope to show people the great benefits of Herbal teas and how it can help improve their daily life.
 
+[Deployed site here](https://mikacodez.github.io/mellowte/)
 
 # UX
 ## Users
@@ -14,7 +15,7 @@ This is a user friendly website that has access to an index of a variety of teas
 if they want more straight to the point information.
 
 ## Wireframes
-Wireframes were created with figma
+Wireframes were created with [Figma](https://www.figma.com/)
 
 
 ## Colors
@@ -102,10 +103,10 @@ Used to host sites code and deploy via Github Pages
 Used via Gitpod to code in terminal straight to Github
 
 •FontAwesome
-Used to deploy icons through out pages.
+Used to deploy [icons](https://fontawesome.com/) through out pages.
 
 •GoogleFonts
-Fonts used from Google Fonts
+Fonts used from [Google Fonts](https://fonts.google.com/)
 
 # Testing
 Testing was achieved through Google Chrome Lighthouse and W3C Markup Validator for HTML and CSS
@@ -118,16 +119,18 @@ Testing was achieved through Google Chrome Lighthouse and W3C Markup Validator f
 
 # Deployment
 
+[Github Pages](https://mikacodez.github.io/mellowte/)
+
 # Credits
 
 ## Content
-•Readme template sampled off of Codeinstitute Readme.MD template.
-• CSS flexbox used from https://css-tricks.com/snippets/css/a-guide-to-flexbox/#examples 
+•Readme template sampled off of [Codeinstitute Readme.MD template.](https://github.com/Code-Institute-Solutions/readme-template)
+• CSS flexbox used from [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#examples) 
 
 ## Media
 Photos used from
-• www.pexels.com
-• www.unsplashed.com
+•[Pexels](www.pexels.com)
+•[Unsplashed](www.unsplashed.com)
 
 
 
