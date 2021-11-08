@@ -13,6 +13,10 @@ that they can bring to them. This will breakdown health areas to tackle such as 
 This is a user friendly website that has access to an index of a variety of teas. All the links are displayed clearly and navigate to the user where to go
 if they want more straight to the point information.
 
+## Wireframes
+Wireframes were created with figma
+
+
 ## Colors
 
 ![Mellow te](https://user-images.githubusercontent.com/65243328/138293991-f0297bae-1a6f-4acb-9bfc-382a0c2cb2f9.png)
@@ -82,5 +86,46 @@ here they will enter in their name and email in order to have this service. This
 ![contact page](https://user-images.githubusercontent.com/65243328/136411268-a2458323-800e-42bd-8493-ee85e0e390cf.JPG)
 
 # Technologies
+## Languages
 •HTML
 •CSS
+
+##Libraries and Frameworks used:
+
+•Github
+Used to host sites code and deploy via Github Pages
+
+•Git
+Used via Gitpod to code in terminal straight to Github
+
+•FontAwesome
+Used to deploy icons through out pages.
+
+•GoogleFonts
+Fonts used from Google Fonts
+
+# Testing
+Testing was achieved through Google Chrome Lighthouse and W3C Markup Validator for HTML and CSS
+
+•Website works on browsers such as Edge, Firefox, Safari and Google Chrome.
+•Website content is easy to read and follow.
+•Links between pages work harmoniously.
+
+# Bugs
+
+# Deployment
+
+# Credits
+
+## Content
+•Readme template sampled off of Codeinstitute Readme.MD template.
+• CSS flexbox used from https://css-tricks.com/snippets/css/a-guide-to-flexbox/#examples 
+
+## Media
+Photos used from
+• www.pexels.com
+• www.unsplashed.com
+
+
+
+
