@@ -58,7 +58,8 @@ This section introduces the user to Mellow Tè with a little bit of information 
 The footer section includes links to the relevant social media sites for Mellow Tè. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![footer](https://user-images.githubusercontent.com/65243328/136409293-d733f4ad-2b74-4657-8d61-7586689fbdac.JPG)
+![footer page](https://user-images.githubusercontent.com/65243328/140743932-17e494ef-5040-432d-be8b-916571bfba78.JPG)
+
 
 •About Page
 
@@ -75,7 +76,8 @@ Listing the benefits of different types of tea and its properties. This section 
 Encouraging them to start including Herbal tea into their lifestyle.
 
 
-![herbalteapage](https://user-images.githubusercontent.com/65243328/136410894-5ffe6109-e194-4a1e-94a8-6e82c6451abc.JPG)
+
+![hbtpage](https://user-images.githubusercontent.com/65243328/140744116-9be800d3-9223-46f4-a470-77e2008eaf1b.JPG)
 
 
 •Contact us page
@@ -83,7 +85,8 @@ Encouraging them to start including Herbal tea into their lifestyle.
 This section of the site contains the form for the users to fill in order to be sucbrscribed to the newsletter.
 here they will enter in their name and email in order to have this service. This will keep the user up to date from when they leave the website and will also encourage the user to visit the site more often.
 
-![contact page](https://user-images.githubusercontent.com/65243328/136411268-a2458323-800e-42bd-8493-ee85e0e390cf.JPG)
+![contact us](https://user-images.githubusercontent.com/65243328/140743961-515b9680-2f15-46c6-b5f2-18bcf107c97a.JPG)
+
 
 # Technologies
 ## Languages
