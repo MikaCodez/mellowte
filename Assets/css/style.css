@@ -1,27 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Merienda:wght@700&display=swap');
 
-/* Media queries */
 
-/* 1200px / 16px = 75em */
-@media (max-width: 75em) {
-  html {
-    font-size: 60%;
-  }
-}
-
-/* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
-  html {
-    font-size: 58%;
-  }
-}
-
-/* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
-  html {
-    font-size: 55%;
-  }
-}
 
 
 * {
@@ -35,7 +14,7 @@ html,
 body {
   min-width: 290px;
   color: #000;
-  background-color: #EFF6EE;
+  background-color: #eff6ee;
   height: 100%;
 }
 
@@ -72,11 +51,9 @@ h4 {
 }
 
 #introte {
-   max-width: 150vh;
-  margin: 0 25px 0 25px;
-  padding-top: 20%;
-  padding: 10px 25px 25px 25px;
-  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("../css/gallery/home\ tea.jpg");
+height: 100vh;
 background-position: center;
 background-size: cover;
   
@@ -92,15 +69,16 @@ background-size: cover;
 }
 
 #landingtitle {
-  font-size: 280%;
+  font-size: 480%;
   text-align: center;
   position: absolute;
-  padding-left: 10%;
+  padding-left: 20%;
+  padding-top: 10%;
   }
 
   #landingmini {
     font-size: 200%;
-    padding-left: 2%;
+    padding-left: 40%;
   }
 
 #logo {
@@ -149,8 +127,8 @@ margin: 15px 0px 0px 20px;
   font-size: 140%;
   position:relative ;
   font-family: 'EB Garamond', serif;
-  padding-left: 2%;
-  width: 60%;
+  padding-left: 20%;
+  width: 85%;
   word-wrap: break-word;
 }
 
@@ -164,7 +142,7 @@ margin: 15px 0px 0px 20px;
     font-weight: ligher;
     box-sizing: border-box;
     padding: 50px;
-    background-color: #4EE74B;
+    background-color: #dff5de;
 }
 
 #navi, #logo {
@@ -181,6 +159,11 @@ margin: 15px 0px 0px 20px;
     letter-spacing: 4px;
     color: #3CB371;
 
+}
+
+#navi a {
+  color: #3CB371;
+  text-decoration:none;
 }
 
 
@@ -407,8 +390,8 @@ margin-bottom: 5px;
 #newslet {
   padding: 0.5rem 0.55rem;
   color: #3CB371;
-  padding-left: 35%;
-  font-size: 150%;
+  padding-left: 45%;
+  font-size: 200%;
 }
 
  
@@ -437,11 +420,20 @@ margin-bottom: 5px;
     
   }
 
+  .footer-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   #rights {
     font-family: 'EB Garamond', serif;
     font-weight: bold;
     color: #3CB371;
     font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .social-media {
@@ -455,8 +447,38 @@ margin-bottom: 5px;
   .social-media > li {
     text-align: center;
     display: inline;
-    padding-right: 20%;
+    align-items: center;
+    padding: 0 0.5rem;
+    
   }
 
   
- 
+ /* Media queries */
+
+
+/* For devices smaller than 400px: */
+@media only screen and (min-device-width: 400px) {
+
+.body {
+  background-image:url(../css/gallery/about\ tea.jpg);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 548px) {  
+  p {
+    font-size: 1.5rem;
+  }
+  
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media only screen and (min-width: 768px) {  
+  p {
+    font-size: 1.5rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 920px) { 
+  p {
+    font-size: 1.5rem;
+  }
+}
