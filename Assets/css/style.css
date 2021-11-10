@@ -183,6 +183,7 @@ margin: 15px 0px 0px 20px;
   height: auto;
   display: flex;
 position: relative;
+text-align: center;
 padding-left: 2%;
  
 }
@@ -239,15 +240,25 @@ h5 {
 
 #Melnews {
   font-family: 'EB Garamond', serif;
-  color: #3CB371;
-  padding-bottom: 50px;
-  width: 73%;
-  flex-basis:content;
-  margin-right: 10px;
-  margin-bottom: 5px;
+    color: #daf1e5;
+    position: absolute;
+    top: 88%;
+    left: 273%;
+    font-size: 150%;
+    transform: translate(-50%, -50%);
 }
 
-#newsmel {
+#careersmel {
+  font-family: 'EB Garamond', serif;
+  color: #daf1e5;
+    position: absolute;
+    top: 88%;
+    left: 273%;
+    font-size: 150%;
+    transform: translate(-50%, -50%);
+}
+
+#sustainmel {
   font-family: 'EB Garamond', serif;
   color: #3CB371;
   padding-bottom: 50px;
@@ -442,19 +453,14 @@ margin-bottom: 5px;
 
   .social-media {
     display: block;
-    
-    
-
-  }
+     }
 
   .social-media > li {
     text-align: center;
     display:block;
-    align-items:inherit;
-    padding:0 0 0.5rem;
-    
+    justify-content: center;
+    width: 90%;
   }
-
   
  /* Media queries */
 
