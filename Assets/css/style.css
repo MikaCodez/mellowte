@@ -184,7 +184,7 @@ margin: 15px 0px 0px 20px;
   display: flex;
 position: relative;
 text-align: center;
-padding-left: 2%;
+padding-left: 15%;
  
 }
 
@@ -199,7 +199,6 @@ padding-left: 2%;
 position: relative;
 flex-basis: auto;
 text-align: justify;
-vertical-align: text-bottom;
 }
 
 
@@ -213,7 +212,7 @@ vertical-align: text-bottom;
   display: flex;
 position: relative;
 flex-basis: auto;
-vertical-align: text-bottom;
+
   
 }
 .aboutimg3 {
@@ -229,21 +228,12 @@ position: relative;
   
 }
 
-h5 {
-  font-family: 'EB Garamond', serif;
-  color: #3CB371;
-  padding-bottom: 50px;
-  flex-basis:content;
-  margin-right: 10px;
-  margin-bottom: 5px;
-}
-
 #Melnews {
   font-family: 'EB Garamond', serif;
     color: #daf1e5;
     position: absolute;
-    top: 88%;
-    left: 273%;
+    top: 78%;
+    left: 173%;
     font-size: 150%;
     transform: translate(-50%, -50%);
 }
@@ -252,19 +242,22 @@ h5 {
   font-family: 'EB Garamond', serif;
   color: #daf1e5;
     position: absolute;
-    top: 88%;
-    left: 273%;
+    top: 78%;
+    left: 333%;
+    width: 90%;
     font-size: 150%;
     transform: translate(-50%, -50%);
 }
 
 #sustainmel {
   font-family: 'EB Garamond', serif;
-  color: #3CB371;
-  padding-bottom: 50px;
-  flex-basis:content;
-  margin-right: 10px;
-  margin-bottom: 5px;
+  color: #daf1e5;
+    position: absolute;
+    top: 78%;
+    left: 503%;
+    width: 80%;
+    font-size: 150%;
+    transform: translate(-50%, -50%);
 }
 
 #floattxt {
@@ -372,7 +365,7 @@ margin-bottom: 5px;
 
  .form-group {
   margin: 0 auto 1.25rem auto;
-  padding: 0.25rem;
+  padding: 0rem;
 }
 
 .form-control {
@@ -389,12 +382,12 @@ margin-bottom: 5px;
 }
 
 .submit-button {
-  display: block;
-  width: 100%;
-  padding: 0.75rem;
-  background: #4EE74B;
-  color: inherit;
-  border-radius: 2px;
+  background-color: #04AA6D;
+  color: white;
+  padding-bottom: 6%;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
