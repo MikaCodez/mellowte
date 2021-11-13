@@ -454,9 +454,32 @@ margin-bottom: 5px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 548px) {  
+@media (min-width: 347px) {  
   p {
     font-size: 1.5rem;
+  }
+
+  .aboutimg {
+    min-height: 50vh;
+    max-height: 60vh;
+    max-width: fit-content;
+    height: auto;
+    display: block;
+  position: relative;
+  flex-basis: auto;
+  text-align: justify;
+  }
+
+  .aboutimg2 {
+    
+    min-height: 35vh;
+    max-height: 55vh;
+    max-width: fit-content;
+    height: auto;
+    display: inline-block;
+  position: relative;
+  flex-basis: auto;
+  
   }
   
 }
