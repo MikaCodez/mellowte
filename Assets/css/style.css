@@ -113,6 +113,7 @@ margin: 15px 0px 0px 20px;
   width: 80%;
   word-wrap: break-word;
   font-size: 140%;
+  
 }
 
 .main-section {
@@ -161,6 +162,12 @@ margin: 15px 0px 0px 20px;
 
 
 /* About page News seciton */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 347px) {  
+  p {
+    font-size: 1.5rem;
+  }
+
 .imgcontainer {
   justify-content:space-between;
   flex-direction: row;   
@@ -261,6 +268,7 @@ font-size: 220%;
 padding-left: 45%;
 
 }
+}
 
 /* Herbal Teas page */
 
@@ -289,7 +297,11 @@ padding-left: 2%;
 float: left;
 margin-right: 10px;
 margin-bottom: 5px;
+
 }
+
+  
+
 
 #Peppermintte {
   height: 50%;
@@ -308,6 +320,9 @@ padding-left: 2%;
 float: left;
 margin-right: 10px;
 margin-bottom: 5px;
+@media (min-width: 347px) {  
+  width: 1.35em;
+}
 }
 
 #Turmericte {
@@ -317,6 +332,9 @@ margin-bottom: 5px;
   float: left;
   margin-right: 10px;
   margin-bottom: 5px;
+  @media (min-width: 347px) {  
+    width: 1.35em;
+  }
 }
 
 #Healthtes {
@@ -326,12 +344,17 @@ margin-bottom: 5px;
   float: left;
   margin-right: 10px;
   margin-bottom: 5px;
+  @media (min-width: 347px) {  
+    width: 1.35em;
+  }
 }
 
 #youtubevid {
   padding-left: 5%;
+  @media (min-width: 347px) {  
+    width: 1.35em;
+  }
  }
-
  /* Contact page */
  #contactte {
  font-size: 380%;
@@ -446,43 +469,11 @@ margin-bottom: 5px;
  /* Media queries */
 
 
-/* For devices smaller than 400px: */
-@media only screen and (min-device-width: 400px) {
 
-.body {
-  background-image:url(../css/gallery/about\ tea.jpg);
-}
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 347px) {  
-  p {
-    font-size: 1.5rem;
-  }
 
-  .aboutimg {
-    min-height: 50vh;
-    max-height: 60vh;
-    max-width: fit-content;
-    height: auto;
-    display: block;
-  position: relative;
-  flex-basis: auto;
-  text-align: justify;
-  }
 
-  .aboutimg2 {
-    
-    min-height: 35vh;
-    max-height: 55vh;
-    max-width: fit-content;
-    height: auto;
-    display: inline-block;
-  position: relative;
-  flex-basis: auto;
-  
-  }
-  
-}
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media only screen and (min-width: 768px) {  
   p {
@@ -494,3 +485,25 @@ margin-bottom: 5px;
   p {
     font-size: 1.5rem;
   }
+
+/* Small devices (landscape phones, 576px and up) */
+  @media screen and (min-width: 320px) and (max-width: 767px) { 
+  
+    #Echinaceate, #Peppermintte {
+  font-size: 0.5rem;
+  height: 45%;
+    }
+
+   #rosehipte,  #Turmericte, #youtubevid{
+    font-size: 4.5rem;
+    height: 35%;
+    width: fit-content;
+  }
+    
+    #Healthtes {
+    font-size: 0.5rem;
+      height: 25%;
+      width: fit-content;
+    }
+  
+}
