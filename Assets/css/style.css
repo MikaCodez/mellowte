@@ -26,7 +26,7 @@ body {
 
 h1 {
     font-family: 'Merienda', cursive;
-    color: #3CB371;
+    color: #1B5A3B;
 }
 
 
@@ -34,7 +34,7 @@ h1 {
 h2 {
     font-family: 'EB Garamond', serif;
     letter-spacing: 4px;
-    color: #3CB371;
+    color: #1B5A3B;
     padding-top: 50px;
     padding-left: 0.5%;
 }
@@ -63,6 +63,7 @@ background-size: cover;
 
 #landingtitle {
   font-size: 480%;
+  color: #3CB371;
   text-align: center;
   position: absolute;
   padding-left: 20%;
@@ -150,12 +151,12 @@ margin: 15px 0px 0px 20px;
     padding: .5em;
     font-family: 'EB Garamond', serif;
     letter-spacing: 4px;
-    color: #3CB371;
+    color: #1B5A3B;
 
 }
 
 #navi a {
-  color: #3CB371;
+  color: #1B5A3B;
   text-decoration:none;
 }
 
@@ -254,7 +255,7 @@ position: relative;
   float: right;
   margin-right: 10px;
   margin-bottom: 5px;
-  border: solid #3CB371;
+  border: solid #1B5A3B;
   padding: 2px;
 }
 
@@ -338,10 +339,7 @@ margin-bottom: 5px;
 
 #youtubevid {
   padding-left: 5%;
-  @media (min-width: 347px) {  
-    width: 1.35em;
   }
- }
 
  /* Contact page */
  #contactte {
@@ -351,7 +349,7 @@ margin-bottom: 5px;
 }
 
  #survey-form {
-  background-color: #3CB371;
+  background-color: #1B5A3B;
   border: none;
   color: #fff;
   font-size: 1em;
@@ -485,6 +483,9 @@ height: 45%;
     display: table;
   position: relative;
    
+  }
+  #navi {
+    font-size: 1.5rem;
   }
 }
 
