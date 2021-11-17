@@ -20,13 +20,14 @@ Wireframes were created with [Figma](https://www.figma.com/)
 
 ## Colors
 
-![Mellow te](https://user-images.githubusercontent.com/65243328/138293991-f0297bae-1a6f-4acb-9bfc-382a0c2cb2f9.png)
+![newmellote](https://user-images.githubusercontent.com/65243328/142275655-79b4673e-6182-419b-b503-720725a22e8e.png)
 
-#AEB3AD - Navy Blue - as the main background colour and to depict the night sky
 
-#99B7AB - Light green - used for the navigation and footer of the page
+#1B5A3B - Sea Green - used as the Header font to contrast with the light background
 
-#84BBA9 - Light green - used for the background of most of the pages of the site.
+#DFF5DE - light Green - used for the navigation and footer of the page
+
+#EFF6EE - Honey Dew - used for the background of most of the pages of the site.
 
 #080D0B - Black - used for the main paragraph texts on the herbal tea and about pages
 
@@ -51,7 +52,7 @@ Nav Bar
 The landing includes a photograph with text over the image to let them know that the site will have information for all tea Lovers.
 This section introduces the user to Mellow Tè with a little bit of information on why Herbal teas are good and catches their attention.
 
-![landing page](https://user-images.githubusercontent.com/65243328/136408134-9931e391-d91b-4ff9-842d-16f82def8ca4.JPG)
+![landing page](https://user-images.githubusercontent.com/65243328/142277186-97a71973-9e29-41a1-86e7-38b89388a5b4.JPG)
 
 
 •The Footer
@@ -86,7 +87,7 @@ Encouraging them to start including Herbal tea into their lifestyle.
 This section of the site contains the form for the users to fill in order to be sucbrscribed to the newsletter.
 here they will enter in their name and email in order to have this service. This will keep the user up to date from when they leave the website and will also encourage the user to visit the site more often.
 
-![contact us](https://user-images.githubusercontent.com/65243328/140743961-515b9680-2f15-46c6-b5f2-18bcf107c97a.JPG)
+![contact us](https://user-images.githubusercontent.com/65243328/142277971-95586b3a-c5c1-4a6e-900c-f9af280ee847.JPG)
 
 
 # Technologies
@@ -115,7 +116,17 @@ Testing was achieved through Google Chrome Lighthouse and W3C Markup Validator f
 •Website content is easy to read and follow.
 •Links between pages work harmoniously.
 
+•Accessibility was tested for Website on various browsers such as Edge, Firefox and Chrome.
+![lighthouse report](https://user-images.githubusercontent.com/65243328/142274736-554abc47-7c5c-4dcc-ba2c-d1325548ac42.JPG)
+
+
 # Bugs
+
+I encountered a few bugs while trying to deploy the Media Queries for different sections of the site.
+Some Queries would stick with a particular page size. i.e. media queries for Tablets where:( @media only screen and (min-width: 768px) )
+would remain even after going back and checking all the CSS styles.
+
+I rectified this by making sure brackets were correct in code and closed.
 
 # Deployment
 
