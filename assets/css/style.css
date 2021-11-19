@@ -58,6 +58,7 @@ h4 {
 height: 100vh;
 background-position: center;
 background-size: cover;
+overflow: hidden;
   
 }
 
@@ -251,13 +252,6 @@ position: relative;
     transform: translate(-50%, -50%);
 }
 
-#floattxt {
-  float: right;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  border: solid #1B5A3B;
-  padding: 2px;
-}
 
 #aboutpage {
 font-size: 220%;
