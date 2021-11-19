@@ -20,6 +20,8 @@ body {
 
 .cpagebod {
   background-color: #B2BEB5;
+  margin-top: -50px;
+  margin-bottom: -50px;
 }
 
 /* headings and logo */
@@ -67,8 +69,10 @@ overflow: hidden;
   color: #3CB371;
   text-align: center;
   position: absolute;
-  padding-left: 20%;
-  padding-top: 10%;
+  left: 0px;
+  top: 170px;
+  height: auto;
+  width: 100%;
   }
 
   #landingmini {
@@ -165,7 +169,7 @@ margin: 15px 0px 0px 20px;
 
 /* About page News seciton */
 
-.imgcontainer {
+ .imgcontainer {
   justify-content:space-between;
   flex-direction: row;   
   min-height: 40vh;
@@ -173,8 +177,8 @@ margin: 15px 0px 0px 20px;
   object-fit: fill;
   max-width: 5%;
   height: auto;
-  display: flex;
-position: relative;
+  display: grid;
+grid-column-gap: 10px;
 text-align: center;
 padding-left: 15%;
  
@@ -187,7 +191,7 @@ padding-left: 15%;
   object-fit: fill;
   max-width: fit-content;
   height: auto;
-  display: flex;
+  display: grid;
 position: relative;
 flex-basis: auto;
 text-align: justify;
@@ -201,7 +205,7 @@ text-align: justify;
   object-fit: fill;
   max-width: fit-content;
   height: auto;
-  display: flex;
+  display: grid;
 position: relative;
 flex-basis: auto;
 
@@ -210,14 +214,10 @@ flex-basis: auto;
 .aboutimg3 {
     
   min-height: 50vh;
-  max-height: 60vh;
+  max-height: 10vh;
   object-fit:contain;
-  max-width:fit-content;
-  height: auto;
-  display: flex;
-position: relative;
-
-  
+  display: grid;
+ 
 }
 
 #Melnews {
