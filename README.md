@@ -61,7 +61,7 @@ This section introduces the user to Mellow Tè with a little bit of information 
 The footer section includes links to the relevant social media sites for Mellow Tè. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![footer page](https://user-images.githubusercontent.com/65243328/140743932-17e494ef-5040-432d-be8b-916571bfba78.JPG)
+![footer page](https://user-images.githubusercontent.com/65243328/142909086-2335b03e-655e-404e-8bfd-8546081ea03d.JPG)
 
 
 •About Page
@@ -83,12 +83,13 @@ Encouraging them to start including Herbal tea into their lifestyle.
 ![hbtpage](https://user-images.githubusercontent.com/65243328/140744116-9be800d3-9223-46f4-a470-77e2008eaf1b.JPG)
 
 
-•Contact us page
+•Subscribe page
 
 This section of the site contains the form for the users to fill in order to be sucbrscribed to the newsletter.
 here they will enter in their name and email in order to have this service. This will keep the user up to date from when they leave the website and will also encourage the user to visit the site more often.
 
-![contact us](https://user-images.githubusercontent.com/65243328/142277971-95586b3a-c5c1-4a6e-900c-f9af280ee847.JPG)
+
+![contact us](https://user-images.githubusercontent.com/65243328/142907263-eef6d2e5-e735-4776-ac47-21c828f1acd5.JPG)
 
 
 # Technologies
@@ -114,7 +115,9 @@ Fonts used from [Google Fonts](https://fonts.google.com/)
 Testing was achieved through Google Chrome Lighthouse and W3C Markup Validator for HTML and CSS
 
 •Website works on browsers such as Edge, Firefox, Safari and Google Chrome.
+
 •Website content is easy to read and follow.
+
 •Links between pages work harmoniously.
 
 •Accessibility was tested for Website on various browsers such as Edge, Firefox and Chrome.
@@ -130,7 +133,11 @@ would remain even after going back and checking all the CSS styles.
 I rectified this by making sure brackets were correct in code and closed.
 
 # Deployment
-
+In order to deploy site to Github I had to do the following:
+• Select Settings at top of Repository page.
+• Click on Pages button on the navigation for GitHub Pages.
+• Click on source and select Master Branch to commit action of page to.
+Link below:
 [Github Pages](https://mikacodez.github.io/mellowte/)
 
 # Credits
@@ -138,11 +145,15 @@ I rectified this by making sure brackets were correct in code and closed.
 ## Content
 •Readme template sampled off of [Codeinstitute Readme.MD template.](https://github.com/Code-Institute-Solutions/readme-template)
 • CSS flexbox used from [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#examples) 
+• CSS Grid used from [W3Schools](https://www.w3schools.com/css/css_grid.asp)
 
 ## Media
 Photos used from
 •[Pexels](www.pexels.com)
 •[Unsplashed](www.unsplashed.com)
+
+## Code
+All code was learned from [Code Institute](www.codeinstitute.net) and [FreeCodeCamp](https://www.freecodecamp.org/learn/) 
 
 
 
