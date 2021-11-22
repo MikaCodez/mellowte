@@ -4,6 +4,7 @@ A responsive website documenting the importance of Herbal Tea's
 Mellow Tè is an informational guide to the best tea's available for people to drink and enjoy.
 The site will have a section dedicated to the properties of various herbal tea's, their history, properties and benefits.
 I hope to show people the great benefits of Herbal teas and how it can help improve their daily life.
+![melloresponsive](https://user-images.githubusercontent.com/65243328/142902802-6a7eef82-1c99-44e7-abc7-19cc956ac1b3.jpg)
 
 [Deployed site here](https://mikacodez.github.io/mellowte/)
 
@@ -95,7 +96,7 @@ here they will enter in their name and email in order to have this service. This
 •HTML
 •CSS
 
-##Libraries and Frameworks used:
+## Libraries and Frameworks used:
 
 •Github
 Used to host sites code and deploy via Github Pages
