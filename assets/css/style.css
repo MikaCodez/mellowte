@@ -226,9 +226,10 @@ flex-basis: auto;
     color:honeydew;
     position: absolute;
     text-align: center;
+    text-shadow: 2px 2px 5px #1B5A3B;
     top: 78%;
     left: 173%;
-    font-size: 150%;
+    font-size: 250%;
     transform: translate(-50%, -140%);
 }
 
@@ -236,10 +237,11 @@ flex-basis: auto;
   font-family: 'EB Garamond', serif;
   color:honeydew;
     position: absolute;
+    text-shadow: 2px 2px 5px #1B5A3B;
     top: 78%;
     left: 333%;
     width: 90%;
-    font-size: 150%;
+    font-size: 250%;
     transform: translate(-40%, -200%);
 }
 
@@ -247,11 +249,12 @@ flex-basis: auto;
   font-family: 'EB Garamond', serif;
   color:honeydew;
     position: absolute;
+    text-shadow: 2px 2px 5px #1B5A3B;
     top: 78%;
     left: 503%;
     width: 80%;
-    font-size: 150%;
-    transform: translate(-60%, -180%);
+    font-size: 250%;
+    transform: translate(-60%, -130%);
 }
 
 
