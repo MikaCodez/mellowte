@@ -215,41 +215,43 @@ flex-basis: auto;
     
   min-height: 50vh;
   max-height: 10vh;
-  object-fit:contain;
+  max-width: fit-content;
+  object-fit: fill;
   display: grid;
  
 }
 
 #Melnews {
   font-family: 'EB Garamond', serif;
-    color: #daf1e5;
+    color:honeydew;
     position: absolute;
+    text-align: center;
     top: 78%;
     left: 173%;
     font-size: 150%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -140%);
 }
 
 #careersmel {
   font-family: 'EB Garamond', serif;
-  color: #daf1e5;
+  color:honeydew;
     position: absolute;
     top: 78%;
     left: 333%;
     width: 90%;
     font-size: 150%;
-    transform: translate(-50%, -50%);
+    transform: translate(-40%, -200%);
 }
 
 #sustainmel {
   font-family: 'EB Garamond', serif;
-  color: #daf1e5;
+  color:honeydew;
     position: absolute;
     top: 78%;
     left: 503%;
     width: 80%;
     font-size: 150%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -180%);
 }
 
 
