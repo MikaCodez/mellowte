@@ -608,7 +608,7 @@ height: 45%;
     text-shadow: 2px 2px 5px #1B5A3B;
     top: 78%;
     left: 173%;
-    font-size: 250%;
+    font-size: 150%;
     transform: translate(-50%, -140%);
 }
 
@@ -620,7 +620,7 @@ height: 45%;
     top: 78%;
     left: 333%;
     width: 90%;
-    font-size: 250%;
+    font-size: 150%;
     transform: translate(-40%, -200%);
 }
 
@@ -632,7 +632,7 @@ height: 45%;
     top: 45%;
     left: 503%;
     width: 80%;
-    font-size: 250%;
+    font-size: 150%;
     transform: translate(-60%, -130%);
 }
 }
